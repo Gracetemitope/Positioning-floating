@@ -1,0 +1,59 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    display: flex;
+    width: 100%;
+}
+header ul {
+    list-style: none;
+    display: inline-flex;
+    width: inherit;
+    justify-content: space-around;
+    font-size: 24px;
+}
+header  #center {
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: Lobster;
+}
+header #bold {
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Merriweather Sans';
+}
+
+button {
+    color: white;
+    background-color: rgb(75, 7, 114);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+}
+header div {
+    display: flex;
+    
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }  
+  p {text-align: center;}
+
+
+  
