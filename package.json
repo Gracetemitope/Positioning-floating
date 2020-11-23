@@ -1,0 +1,23 @@
+{
+  "name": "positioning-floating",
+  "version": "1.0.0",
+  "description": "Understanding basics of positioning and floating",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gracetemitope/Positioning-floating.git"
+  },
+  "author": "Grace and Teshie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gracetemitope/Positioning-floating/issues"
+  },
+  "homepage": "https://github.com/Gracetemitope/Positioning-floating#readme",
+  "devDependencies": {
+    "eslint": "^7.14.0"
+  }
+}
