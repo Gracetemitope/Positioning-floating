@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box;
     margin: 0px;
-    padding: 0px;
+    padding: 50px;
 }
 header {
     display: flex;
@@ -40,13 +40,13 @@ header #bold {
 }
 header #sub-button {
     position: relative;
-    left:150px;
+    left:120px;
     bottom: 0px;
     display: inline;
 }
 header #login-button {
     position: relative;
-    left:50px;
+    left:30px;
     bottom: 0px;
     display: inline;
 }
@@ -78,17 +78,106 @@ header div {
     
 }
 .footer {
-    position: fixed;
+    /* position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: red;
     color: white;
-    text-align: center;
+    text-align: center; */
+}
+.author {
+
 }
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
 } 
+
+.inflation-container {
+    width: auto;
+    display: flex;
+    /* border: 1px solid black; */
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 8rem;
+}
+.inflation-item {
+    flex-basis: 280px;
+    /* border: 1px solid black; */
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 220px;
+    margin-bottom: 8px;
+}
+footer {
+    margin-top: 40px;
+    height: 100vh;
+    border-top: 3px solid grey;
+    border-bottom: 1px solid black;
+}
+.footer-header {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container {
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    height: inherit;
+}
+.footer-link {
+    /* border: 1px solid black; */
+    /* height: inherit; */
+    display: flex;
+    flex-basis: 200px;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: blue;
+    transition: all 1.4s ease-out;
+}
+.footer-link a {
+    margin-bottom: 8px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.footer-text a {
+
+    color: grey;
+    font-size: 12px;
+}
+.border-top {
+    margin-top: 10px;
+    border-top: 0.5px solid lightgray ;
+}
+.space {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+.space h2 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 3rem;
+}
