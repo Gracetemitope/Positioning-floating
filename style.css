@@ -1,12 +1,11 @@
 body {
   box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
 }
 
 main {
   padding: 50px;
 }
+
 header {
   display: flex;
   width: 100%;
@@ -14,7 +13,6 @@ header {
   position: fixed;
   height: 50px;
   box-shadow: 2px 2px rgb(247, 242, 242);
-  /* justify-content: space-between; */
 }
 
 header ul {
@@ -22,7 +20,7 @@ header ul {
   display: inline-flex;
   width: inherit;
   justify-content: space-between;
-  font-size: 24px;  
+  font-size: 24px;
   margin-top: 5px;
 }
 
@@ -71,7 +69,7 @@ img {
 }
 
 footer {
-  margin-top: 40px;
+  margin-top: 60px;
   height: 100vh;
   border-top: 3px solid grey;
   border-bottom: 1px solid black;
@@ -127,9 +125,7 @@ a:hover {
 }
 
 .space {
-  /* position: relative; */
   margin-top: 30px;
-  /* margin-left: 7rem; */
   margin-left: 30%;
 }
 
@@ -139,4 +135,12 @@ a:hover {
   font-weight: 900;
   font-size: 2.5rem;
   line-height: 3rem;
+}
+
+.center-article {
+  margin-left: 12rem;
+  margin-right: 12rem;
+  font-size: 1.2rem;
+  line-height: 2.3rem;
+  text-align: justify;
 }
